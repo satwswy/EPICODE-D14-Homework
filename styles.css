@@ -53,4 +53,10 @@ body {
     cursor: pointer;
     color: aliceblue;
 }
+.highlight {
+    border-color: rgb(113, 142, 164);
+    background-color: rgb(46, 63, 41);
+    cursor: pointer;
+    color: aliceblue;
+}
    
