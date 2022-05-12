@@ -7,7 +7,7 @@ function displayCells() {
         let cellNode = document.createElement('div')
         let cellText = document.createElement('span')
         cellNode.appendChild(cellText)
-       cellText.innerText = cellCount
+        cellText.innerText = cellCount
         cellNode.classList.add('cell')
         cellsContainer.appendChild(cellNode)
     }

@@ -37,4 +37,20 @@ body {
     text-align: center;
     font-size: 50px;
 }
+#button {
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    border: 5px solid yellow;
+    background-color: blueviolet;
+    font-size: 50px;
+    color:rgb(16, 16, 14);
+    font-weight: 700;
+}
+#button:hover {
+    border-color: rgb(113, 142, 164);
+    background-color: rgb(46, 63, 41);
+    cursor: pointer;
+    color: aliceblue;
+}
    
