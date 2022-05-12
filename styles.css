@@ -1,0 +1,35 @@
+.cell{
+    width: 80px;
+    height: 80px;
+    border: 2px solid yellowgreen;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    
+}
+
+.cell span {
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+body {
+   
+    background-color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+
+#cells-container {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:brown;
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+}
+   
