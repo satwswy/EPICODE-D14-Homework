@@ -16,10 +16,10 @@ displayCells();
 
 
 function randomNumber(){
-    let cellList = document.q
+    let cellList = document.querySelectorAll('.cell')
     let randomNumberNode = Math.floor((Math.random() * 76) +1);
     let buttonValue = document.getElementById('button')
     buttonValue.value = randomNumberNode
-    
+    cellList[randomNumberNode-1].style.backgroundColor='red'
 }
 randomNumber();
